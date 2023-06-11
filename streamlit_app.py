@@ -38,7 +38,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
         df,
         enable_enterprise_modules=True,
         gridOptions=options.build(),
-        theme="light",
+        theme="streamlit",  # Specify a valid theme option: "streamlit", "fresh", or "dark"
         update_mode=GridUpdateMode.MODEL_CHANGED,
         allow_unsafe_jscode=True,
     )
@@ -89,7 +89,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
         df,
         enable_enterprise_modules=True,
         gridOptions=options.build(),
-        theme="light",
+        theme="streamlit",  # Specify a valid theme option: "streamlit", "fresh", or "dark"
         update_mode=GridUpdateMode.MODEL_CHANGED,
         allow_unsafe_jscode=True,
     )
