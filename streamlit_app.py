@@ -7,7 +7,7 @@ STREAMLIT_AGGRID_URL = "https://github.com/PablocFonseca/streamlit-aggrid"
 st.set_page_config(
     layout="centered", page_icon="🖱️", page_title="Interactive table app"
 )
-st.title("🖱️ Interactive table app")
+st.title("🖱️ EduX")
 st.write(
     """This app shows how you can use the [streamlit-aggrid](STREAMLIT_AGGRID_URL) 
     Streamlit component in an interactive way so as to display additional content 
@@ -47,7 +47,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
@@ -66,7 +66,7 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
 )
 
 def aggrid_interactive_table(df: pd.DataFrame):
@@ -98,7 +98,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"
+    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
