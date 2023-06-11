@@ -22,7 +22,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
     """Creates an st-aggrid interactive table based on a dataframe.
 
     Args:
-        df (pd.DataFrame]): Source dataframe
+        df (pd.DataFrame): Source dataframe
 
     Returns:
         dict: The selected row
@@ -47,7 +47,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
@@ -66,14 +66,14 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
 
 iris = pd.read_csv(
-    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 def aggrid_interactive_table(df: pd.DataFrame):
     """Creates an st-aggrid interactive table based on a dataframe.
 
     Args:
-        df (pd.DataFrame]): Source dataframe
+        df (pd.DataFrame): Source dataframe
 
     Returns:
         dict: The selected row
@@ -98,7 +98,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://github.com/AhmedIbreljic/table/blob/main/eduxtest.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
