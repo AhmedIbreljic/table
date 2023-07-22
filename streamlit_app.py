@@ -47,7 +47,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest1.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
@@ -66,7 +66,7 @@ from st_aggrid import AgGrid, GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest1.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 def aggrid_interactive_table(df: pd.DataFrame):
@@ -98,7 +98,7 @@ def aggrid_interactive_table(df: pd.DataFrame):
 
 
 iris = pd.read_csv(
-    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest1.csv"
+    "https://raw.githubusercontent.com/AhmedIbreljic/table/main/eduxtest.csv"
 )
 
 selection = aggrid_interactive_table(df=iris)
