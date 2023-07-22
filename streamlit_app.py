@@ -7,7 +7,7 @@ STREAMLIT_AGGRID_URL = "https://github.com/PablocFonseca/streamlit-aggrid"
 st.set_page_config(
     layout="centered", page_icon="🖱️", page_title="EduX - [YOUR NAME]"
 )
-st.title("🖱️ EduX")
+st.title("SID# 00000001 [YOUR NAME] Schedule")
 st.write(
     """Your updated degree audit for Fiscal Graduation Year XXXX. Our AI program found 0 changes in child-node calculations. 
     Class regression calculations reached a peak of 0.67 for your SOPHOMORE-year course selection. Your expected graduation time is 
