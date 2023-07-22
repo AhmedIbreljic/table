@@ -15,7 +15,7 @@ st.write(
 )
 
 
-st.write("Go ahead, click on a row in the table below!")
+st.write("Customize your personal schedule, beware changes might affect our calculated graduation date!")
 
 
 def aggrid_interactive_table(df: pd.DataFrame):
